@@ -5,8 +5,7 @@
 }
 
 body{
-    /* background-color: rgba(146, 146, 146, 0.7); */
-    background-color: rgba(138, 136, 135, 0.675);
+    background-color: rgb(197, 196, 196);
 }
 
 header{
@@ -14,6 +13,7 @@ header{
     align-items: center;
     padding: 0.3rem 0.8rem;
     font-size: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.83);
 }
 
 #logo{
@@ -131,6 +131,12 @@ input{
 }
 
 /* Cases */
+.types{
+    padding: 1rem 0 0 0;
+    background-color: rgba(175, 175, 175, 0.83);
+    margin-bottom: 2rem;
+}
+
 .part-one{
     display: flex;
     justify-content: space-around;
@@ -190,6 +196,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: end;
+    color: white;
 }
 
 #map{
